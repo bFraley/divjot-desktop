@@ -1,0 +1,22 @@
+{
+  "name": "divjot-desktop",
+  "version": "0.0.1",
+  "description": "awesomely plain live web editor",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/bfraley/divjot-desktop",
+  "keywords": [
+    "Divjot",
+    "Divjot Desktop",
+    "editor",
+    "web design",
+    "web mockup"
+  ],
+  "author": "Brett Fraley",
+  "license": "pending",
+  "devDependencies": {
+    "electron": "^1.4.1"
+  }
+}
