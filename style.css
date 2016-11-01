@@ -14,7 +14,7 @@ body {
 #main-editor {
   width:75%;
   min-width:400px;
-  height:400px;
+  height:300px;
   border:solid 1px orange;
   position:fixed;
   bottom:10px;
