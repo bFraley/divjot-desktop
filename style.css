@@ -11,13 +11,28 @@ body {
   padding:0;
 }
 
-#main-editor {
-  width:75%;
-  min-width:400px;
-  height:300px;
-  border:solid 1px orange;
-  position:fixed;
+.divjot-editor {
+  width:90%;
+  margin:auto;
+  z-index:1;
+  opacity:0.8;
+  min-width:300px;
+  min-height:300px;
+  position:absolute;;
   bottom:10px;
   left:10px;
-  font-size:1.25em;
+  font-size:1.1em;
+  font-family:courier;
+  border:solid;
+  text-align:center;
+}
+
+.editor-input {
+  width:30%;
+  margin:10px auto;
+  height:275px;
+  border:solid 1px orange;
+  padding:3px;
+  text-align:left;
+
 }
