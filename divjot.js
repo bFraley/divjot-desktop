@@ -13,15 +13,15 @@
   let js_editor = document.getElementById('js-editor');
 
   /* Editor event listeners */
-  main_editor.addEventListener('keyup', function() {
+  main_editor.addEventListener('keyup' || 'keypress', function() {
       main_output.innerHTML = main_editor.value;
   }, false);
 
-  style_editor.addEventListener('keyup', function() {
+  style_editor.addEventListener('keyup' || 'keypress', function() {
       style_output.innerHTML = style_editor.value;
   }, false);
 
-  js_editor.addEventListener('keyup', function() {
+  js_editor.addEventListener('keyup' || 'keypress', function() {
       return eval(js_editor.value)
   }, false);
 
